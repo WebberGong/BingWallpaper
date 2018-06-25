@@ -11,8 +11,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using log4net.Config;
 using RestSharp;
+using Wallpaper;
 
-namespace BingWallpaper
+namespace Wallpaper
 {
     public partial class FormMain : Form
     {
@@ -69,7 +70,7 @@ namespace BingWallpaper
                     LogHelper.LogInfo($"下载壁纸：{fileName}，成功");
                 }
             }
-            await Task.Delay(new TimeSpan(Settings.AutoDownloadWallpaperInterval, 0, 0));
+            await Task.Delay(new TimeSpan(0, Settings.AutoDownloadWallpaperInterval, 0));
             AutoDownloadWallpaper();
         }
 
@@ -82,7 +83,7 @@ namespace BingWallpaper
             if (files.Count < 1)
                 return;
             var time = DateTime.Now.TimeOfDay;
-            if (time > new TimeSpan(8, 00, 0) && time < new TimeSpan(9, 0, 0))
+            if (time > new TimeSpan(Settings.TheNewestWallpaperStartTime, 0, 0) && time < new TimeSpan(Settings.TheNewestWallpaperEndTime, 0, 0))
             {
                 SystemParametersInfo(SpiSetdeskwallpaper, 0, files[0], 1);
                 _currentWallpaper = files[0];
@@ -98,7 +99,7 @@ namespace BingWallpaper
                 _currentWallpaper = files[index];
                 LogHelper.LogInfo($"更换壁纸：{_currentWallpaper}，成功");
             }
-            await Task.Delay(new TimeSpan(0, Settings.AutoChangeWallpaperInterval, 0));
+            await Task.Delay(new TimeSpan(0, 0, Settings.AutoChangeWallpaperInterval));
             AutoChangeWallpaper();
         }
     }

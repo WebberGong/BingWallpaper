@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using System.IO;
-using System.Threading.Tasks;
 using log4net;
 
-namespace BingWallpaper
+namespace Wallpaper
 {
     public class LogHelper
     {

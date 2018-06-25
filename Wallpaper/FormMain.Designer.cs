@@ -1,4 +1,4 @@
-﻿namespace BingWallpaper
+﻿namespace Wallpaper
 {
     partial class FormMain
     {

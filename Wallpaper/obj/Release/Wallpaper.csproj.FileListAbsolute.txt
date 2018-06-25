@@ -5,7 +5,7 @@ C:\Users\Webbe\Documents\Visual Studio 2015\Projects\BingWallpaper\Wallpaper\bin
 C:\Users\Webbe\Documents\Visual Studio 2015\Projects\BingWallpaper\Wallpaper\bin\Release\log4net.dll
 C:\Users\Webbe\Documents\Visual Studio 2015\Projects\BingWallpaper\Wallpaper\bin\Release\RestSharp.dll
 C:\Users\Webbe\Documents\Visual Studio 2015\Projects\BingWallpaper\Wallpaper\bin\Release\log4net.xml
-C:\Users\Webbe\Documents\Visual Studio 2015\Projects\BingWallpaper\Wallpaper\obj\Release\BingWallpaper.FormMain.resources
+C:\Users\Webbe\Documents\Visual Studio 2015\Projects\BingWallpaper\Wallpaper\obj\Release\Wallpaper.FormMain.resources
 C:\Users\Webbe\Documents\Visual Studio 2015\Projects\BingWallpaper\Wallpaper\obj\Release\Wallpaper.Properties.Resources.resources
 C:\Users\Webbe\Documents\Visual Studio 2015\Projects\BingWallpaper\Wallpaper\obj\Release\Wallpaper.csproj.GenerateResource.Cache
 C:\Users\Webbe\Documents\Visual Studio 2015\Projects\BingWallpaper\Wallpaper\obj\Release\Wallpaper.exe

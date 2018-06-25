@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using log4net.Config;
 
-namespace BingWallpaper
+namespace Wallpaper
 {
     static class Program
     {

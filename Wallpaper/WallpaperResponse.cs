@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 
-namespace BingWallpaper
+namespace Wallpaper
 {
     public class WallpaperResponse
     {
-        public List<Wallpaper> Images { get; set; }
+        public List<global::Wallpaper.Wallpaper> Images { get; set; }
     }
 }
